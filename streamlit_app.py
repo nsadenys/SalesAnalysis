@@ -1,4 +1,4 @@
-# # Import python packages
+# # # Import python packages
 import streamlit as st
 import altair as alt
 import pandas as pd
@@ -17,7 +17,7 @@ clt.head()
 #session = get_active_session()
 
 st.set_page_config(page_title="Global Sale Products SuperStoreOrder Analysis",
-                   page_icon=":house:",
+                   page_icon=":sale:",
                    layout = "wide", initial_sidebar_state="expanded")
 
 # Initialized the current page in the sessionstate if it doesn't exist
@@ -28,7 +28,7 @@ def switch_page(page: str):
     st.session_state.current_page = page
 
 # Sidebar
-st.sidebar.subheader("Navigation Page")
+st.sidebar.subheader("Product Dashboard Page")
 
 overview_button = st.sidebar.button(
     "Overview", on_click=switch_page, args=["overview"]
@@ -538,7 +538,10 @@ main_workflow()
 
 
 
-# # # Import python packages
+
+
+
+# # # # Import python packages
 # import streamlit as st
 # import altair as alt
 # import pandas as pd
