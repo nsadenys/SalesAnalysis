@@ -39,7 +39,7 @@ data_button = st.sidebar.button(
 )
 
 data_button = st.sidebar.button(
-    "Category Sales", on_click=switch_page, args=["Category_sales"]
+    "Category Sales", on_click=switch_page, args=["Category_Sales"]
 )
 
 data_button = st.sidebar.button(
@@ -525,7 +525,7 @@ def where_to_buy():
 
 fn_map = {
     "overview": overview,
-    "market_trend": market_trend,
+    "Sales_by_Product": Sales_by_Product,
     "what_to_buy": what_to_buy,
     "where_to_buy": where_to_buy
 }
