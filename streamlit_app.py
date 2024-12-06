@@ -2,10 +2,10 @@
 import streamlit as st
 import altair as alt
 import pandas as pd
-import matplotlib.pyplot as plt # type: ignore
-from matplotlib.ticker import FuncFormatter # type: ignore
-import plotly.express as px # type: ignore
-import plotly.graph_objs as go # type: ignore
+import matplotlib.pyplot as plt
+from matplotlib.ticker import FuncFormatter
+import plotly.express as px
+import plotly.graph_objs as go
 
 
 clt = pd.read_csv("real_estate_charlotte_2000_2024.csv")
