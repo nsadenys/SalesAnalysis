@@ -35,15 +35,15 @@ overview_button = st.sidebar.button(
 )
 
 data_button = st.sidebar.button(
-    "Market Trend", on_click=switch_page, args=["market_trend"]
+    "Sales by Product", on_click=switch_page, args=["Sales_by_Product"]
 )
 
 data_button = st.sidebar.button(
-    "What to Buy?", on_click=switch_page, args=["what_to_buy"]
+    "Category Sales", on_click=switch_page, args=["Category_sales"]
 )
 
 data_button = st.sidebar.button(
-    "Where to Buy?", on_click=switch_page, args=["where_to_buy"]
+    "Where to Sales?", on_click=switch_page, args=["where_to_sales"]
 )
 
 st.sidebar.subheader("Please filter here: ")
