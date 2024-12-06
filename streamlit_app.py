@@ -274,7 +274,7 @@ def Sales_by_Product():
         st.pyplot(fig)
 
 # What to Buy Page function:
-def what_to_buy():
+def Category_Sales():
     st.markdown("<h1 style='text-align: center; color: red;'> Housing Market Trend Analysis in Charlotte Region</h1>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: center; color: #1E3A5F;'>The summary shows the increase of median house price from 2003 to 2023</h3>", unsafe_allow_html=True)
     
@@ -392,7 +392,7 @@ def what_to_buy():
         plt.tight_layout()
         st.pyplot(fig)
 
-def where_to_buy():
+def where_to_sales():
     st.markdown("<h1 style='text-align: center; color: red;'> Housing Market Trend Analysis in Charlotte Region</h1>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: center; color: #1E3A5F;'>The summary shows the increase of median house price from 2003 to 2023</h3>", unsafe_allow_html=True)
 
@@ -526,8 +526,8 @@ def where_to_buy():
 fn_map = {
     "overview": overview,
     "Sales_by_Product": Sales_by_Product,
-    "what_to_buy": what_to_buy,
-    "where_to_buy": where_to_buy
+    "Category_Sales": Category_Sales,
+    "where_to_sales": where_to_sales
 }
 
 main_window = st.container()
