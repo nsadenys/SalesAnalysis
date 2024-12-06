@@ -158,7 +158,7 @@ def overview():
     st.image("charlotteLogo.JPG")
 
 # The Market Trend page function
-def market_trend():
+def Sales_by_Product():
     st.markdown("<h1 style='text-align: center; color: red;'> Housing Market Trend Analysis in Charlotte Region</h1>", unsafe_allow_html=True) 
     st.markdown("<h3 style='text-align: center; color: #1E3A5F;'>The summary shows the increase of median house price from 2003 to 2023</h3>", unsafe_allow_html=True)    
 
