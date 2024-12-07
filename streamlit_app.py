@@ -9,7 +9,7 @@ import plotly.graph_objs as go
 import pandas as pd
 import os
 import warnings
-warnings.filterwarnings('ignore'
+warnings.filterwarnings('ignore')
 
 
 clt = pd.read_csv("real_estate_charlotte_2000_2024.csv")
